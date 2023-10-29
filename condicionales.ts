@@ -1,4 +1,4 @@
-function zodiac(day, month){
+function zodiac(day: number, month: number){
     let signoZodiaco = "";
 
     if((month == 1 && day >= 20) || (month == 2 && day <= 18)){
@@ -45,7 +45,7 @@ function zodiac(day, month){
 
 console.log(zodiac(2,6));
 
-function continent(country){
+function continent(country: string){
     let continente;
 
     switch(country){
@@ -95,7 +95,7 @@ function continent(country){
 
 console.log(continent("España"))
 
-function isEven(num) {
+function isEven(num: number) {
     var mensaje;
     if (num % 2 == 0) {
         mensaje = "El numero es par";
