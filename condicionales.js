@@ -44,7 +44,7 @@ function zodiac(day, month) {
     }
     return signoZodiaco;
 }
-console.log(zodiac(2, 6));
+// console.log(zodiac(2,6));
 function continent(country) {
     var continente;
     switch (country) {
@@ -86,7 +86,7 @@ function continent(country) {
     }
     return continente;
 }
-console.log(continent("España"));
+// console.log(continent("España"))
 function isEven(num) {
     var mensaje;
     if (num % 2 == 0) {
@@ -98,4 +98,4 @@ function isEven(num) {
     return mensaje;
 }
 exports.isEven = isEven;
-console.log(isEven(12));
+// console.log(isEven(12));

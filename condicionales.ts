@@ -43,7 +43,7 @@ function zodiac(day: number, month: number){
     return signoZodiaco;
 }
 
-console.log(zodiac(2,6));
+// console.log(zodiac(2,6));
 
 function continent(country: string){
     let continente;
@@ -93,7 +93,7 @@ function continent(country: string){
     return continente
 }
 
-console.log(continent("España"))
+// console.log(continent("España"))
 
 export function isEven(num: number) {
     let mensaje: string;
@@ -105,4 +105,4 @@ export function isEven(num: number) {
     }
     return mensaje;
 }
-console.log(isEven(12));
+// console.log(isEven(12));

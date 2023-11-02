@@ -3,9 +3,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.add = void 0;
 var myArr1 = ["Anillo", "Collar", "Pulsera"];
 var arrColor = ["verde", "rojo", "azul", "rosa"];
-evenNumbers(10);
-myRever(myArr1);
-isRainbow2(arrColor);
+// evenNumbers(10);
+// myRever(myArr1);
+// isRainbow2(arrColor);
 //console.log(add(arrColor));
 function evenNumbers(num) {
     for (var i = 1; i < num; i++) {

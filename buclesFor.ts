@@ -2,11 +2,11 @@ let myArr1 = ["Anillo","Collar", "Pulsera"];
 let arrColor = ["verde", "rojo","azul", "rosa"]
 
 
-evenNumbers(10);
+// evenNumbers(10);
 
-myRever(myArr1);
+// myRever(myArr1);
 
-isRainbow2(arrColor);
+// isRainbow2(arrColor);
 
 //console.log(add(arrColor));
 
