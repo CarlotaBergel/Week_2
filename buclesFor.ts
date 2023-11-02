@@ -8,7 +8,7 @@ myRever(myArr1);
 
 isRainbow2(arrColor);
 
-console.log(add(arrColor));
+//console.log(add(arrColor));
 
 function evenNumbers(num: number):void{
 
@@ -48,7 +48,7 @@ function isRainbow2(myWords: string[]):void{
     }
 }
 
-function add(myWords: string[]){
+export function add(myWords: string[]){
 
     let sumCarac = 0;
 

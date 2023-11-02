@@ -95,8 +95,8 @@ function continent(country: string){
 
 console.log(continent("España"))
 
-function isEven(num: number) {
-    var mensaje;
+export function isEven(num: number) {
+    let mensaje: string;
     if (num % 2 == 0) {
         mensaje = "El numero es par";
     }
